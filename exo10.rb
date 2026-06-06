@@ -17,7 +17,7 @@ puts majuscule('salut')
 puts triple(2)
 puts triple('salut')
 puts triple(%w{a b c d})
-
+=begin
 cmd = gets.chomp
 case cmd
   when "add"
@@ -27,3 +27,5 @@ case cmd
   else
     puts "inconnu O_o"
 end
+autre methode pour faire les conditions 
+=end
